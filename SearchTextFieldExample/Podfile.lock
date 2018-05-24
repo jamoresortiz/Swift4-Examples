@@ -1,0 +1,16 @@
+PODS:
+  - SearchTextField (1.2.0)
+
+DEPENDENCIES:
+  - SearchTextField
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SearchTextField
+
+SPEC CHECKSUMS:
+  SearchTextField: a5bb7e4c33affadb115afdbe8100d84ef10a8024
+
+PODFILE CHECKSUM: 0df537c7bc4993e27c39d72c27a09c76bd043ad0
+
+COCOAPODS: 1.5.0
