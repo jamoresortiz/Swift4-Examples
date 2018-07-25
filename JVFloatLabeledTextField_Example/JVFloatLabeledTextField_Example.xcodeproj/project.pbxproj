@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7418511020F3753C0059E2E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418510F20F3753C0059E2E4 /* AppDelegate.swift */; };
+		7418511220F3753C0059E2E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418511120F3753C0059E2E4 /* ViewController.swift */; };
+		7418511520F3753C0059E2E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7418511320F3753C0059E2E4 /* Main.storyboard */; };
+		7418511820F3753C0059E2E4 /* JVFloatLabeledTextField_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7418511620F3753C0059E2E4 /* JVFloatLabeledTextField_Example.xcdatamodeld */; };
+		7418511A20F3753E0059E2E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7418511920F3753E0059E2E4 /* Assets.xcassets */; };
+		7418511D20F3753E0059E2E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7418511B20F3753E0059E2E4 /* LaunchScreen.storyboard */; };
+		7418512820F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418512720F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleTests.swift */; };
+		7418513320F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418513220F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleUITests.swift */; };
+		809BD31C79B68E29267A6F57 /* Pods_JVFloatLabeledTextField_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2F945C79560EE35C34C02B /* Pods_JVFloatLabeledTextField_Example.framework */; };
+		8379D70CB77832EC40EA8644 /* Pods_JVFloatLabeledTextField_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72777F1F53D0BFD61DCF6902 /* Pods_JVFloatLabeledTextField_ExampleTests.framework */; };
+		EA2798C92B78C825CB57B542 /* Pods_JVFloatLabeledTextField_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981041F7AA908DE2CB51C623 /* Pods_JVFloatLabeledTextField_ExampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7418512420F3753E0059E2E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7418510420F3753C0059E2E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7418510B20F3753C0059E2E4;
+			remoteInfo = JVFloatLabeledTextField_Example;
+		};
+		7418512F20F3753E0059E2E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7418510420F3753C0059E2E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7418510B20F3753C0059E2E4;
+			remoteInfo = JVFloatLabeledTextField_Example;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C37018229C582E0439AF581 /* Pods-JVFloatLabeledTextField_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVFloatLabeledTextField_ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JVFloatLabeledTextField_ExampleTests/Pods-JVFloatLabeledTextField_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F2F945C79560EE35C34C02B /* Pods_JVFloatLabeledTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVFloatLabeledTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63850DBB66BF6617E97E3041 /* Pods-JVFloatLabeledTextField_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVFloatLabeledTextField_ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JVFloatLabeledTextField_ExampleTests/Pods-JVFloatLabeledTextField_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72777F1F53D0BFD61DCF6902 /* Pods_JVFloatLabeledTextField_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVFloatLabeledTextField_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7418510C20F3753C0059E2E4 /* JVFloatLabeledTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JVFloatLabeledTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7418510F20F3753C0059E2E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7418511120F3753C0059E2E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7418511420F3753C0059E2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7418511720F3753C0059E2E4 /* JVFloatLabeledTextField_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JVFloatLabeledTextField_Example.xcdatamodel; sourceTree = "<group>"; };
+		7418511920F3753E0059E2E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7418511C20F3753E0059E2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7418511E20F3753E0059E2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7418512320F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVFloatLabeledTextField_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7418512720F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVFloatLabeledTextField_ExampleTests.swift; sourceTree = "<group>"; };
+		7418512920F3753E0059E2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7418512E20F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVFloatLabeledTextField_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7418513220F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVFloatLabeledTextField_ExampleUITests.swift; sourceTree = "<group>"; };
+		7418513420F3753E0059E2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816E1308AFC75991A9908B99 /* Pods-JVFloatLabeledTextField_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVFloatLabeledTextField_ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JVFloatLabeledTextField_ExampleUITests/Pods-JVFloatLabeledTextField_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		981041F7AA908DE2CB51C623 /* Pods_JVFloatLabeledTextField_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVFloatLabeledTextField_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38C4794C5F7189725DCAB42 /* Pods-JVFloatLabeledTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVFloatLabeledTextField_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JVFloatLabeledTextField_Example/Pods-JVFloatLabeledTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CC36DFBEE9AE8A9A730525BA /* Pods-JVFloatLabeledTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVFloatLabeledTextField_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JVFloatLabeledTextField_Example/Pods-JVFloatLabeledTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ED585F5CF7C8CBF9EB86A9CB /* Pods-JVFloatLabeledTextField_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVFloatLabeledTextField_ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JVFloatLabeledTextField_ExampleUITests/Pods-JVFloatLabeledTextField_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7418510920F3753C0059E2E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809BD31C79B68E29267A6F57 /* Pods_JVFloatLabeledTextField_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7418512020F3753E0059E2E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8379D70CB77832EC40EA8644 /* Pods_JVFloatLabeledTextField_ExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7418512B20F3753E0059E2E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2798C92B78C825CB57B542 /* Pods_JVFloatLabeledTextField_ExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238F1513F7017FE770F7B257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F945C79560EE35C34C02B /* Pods_JVFloatLabeledTextField_Example.framework */,
+				72777F1F53D0BFD61DCF6902 /* Pods_JVFloatLabeledTextField_ExampleTests.framework */,
+				981041F7AA908DE2CB51C623 /* Pods_JVFloatLabeledTextField_ExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4722BD4784276596F6F0FAA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A38C4794C5F7189725DCAB42 /* Pods-JVFloatLabeledTextField_Example.debug.xcconfig */,
+				CC36DFBEE9AE8A9A730525BA /* Pods-JVFloatLabeledTextField_Example.release.xcconfig */,
+				63850DBB66BF6617E97E3041 /* Pods-JVFloatLabeledTextField_ExampleTests.debug.xcconfig */,
+				3C37018229C582E0439AF581 /* Pods-JVFloatLabeledTextField_ExampleTests.release.xcconfig */,
+				ED585F5CF7C8CBF9EB86A9CB /* Pods-JVFloatLabeledTextField_ExampleUITests.debug.xcconfig */,
+				816E1308AFC75991A9908B99 /* Pods-JVFloatLabeledTextField_ExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7418510320F3753C0059E2E4 = {
+			isa = PBXGroup;
+			children = (
+				7418510E20F3753C0059E2E4 /* JVFloatLabeledTextField_Example */,
+				7418512620F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleTests */,
+				7418513120F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleUITests */,
+				7418510D20F3753C0059E2E4 /* Products */,
+				4722BD4784276596F6F0FAA6 /* Pods */,
+				238F1513F7017FE770F7B257 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7418510D20F3753C0059E2E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7418510C20F3753C0059E2E4 /* JVFloatLabeledTextField_Example.app */,
+				7418512320F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleTests.xctest */,
+				7418512E20F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7418510E20F3753C0059E2E4 /* JVFloatLabeledTextField_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7418510F20F3753C0059E2E4 /* AppDelegate.swift */,
+				7418511120F3753C0059E2E4 /* ViewController.swift */,
+				7418511320F3753C0059E2E4 /* Main.storyboard */,
+				7418511920F3753E0059E2E4 /* Assets.xcassets */,
+				7418511B20F3753E0059E2E4 /* LaunchScreen.storyboard */,
+				7418511E20F3753E0059E2E4 /* Info.plist */,
+				7418511620F3753C0059E2E4 /* JVFloatLabeledTextField_Example.xcdatamodeld */,
+			);
+			path = JVFloatLabeledTextField_Example;
+			sourceTree = "<group>";
+		};
+		7418512620F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7418512720F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleTests.swift */,
+				7418512920F3753E0059E2E4 /* Info.plist */,
+			);
+			path = JVFloatLabeledTextField_ExampleTests;
+			sourceTree = "<group>";
+		};
+		7418513120F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7418513220F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleUITests.swift */,
+				7418513420F3753E0059E2E4 /* Info.plist */,
+			);
+			path = JVFloatLabeledTextField_ExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7418510B20F3753C0059E2E4 /* JVFloatLabeledTextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7418513720F3753E0059E2E4 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField_Example" */;
+			buildPhases = (
+				A3934818CB370D6DEEC091F5 /* [CP] Check Pods Manifest.lock */,
+				7418510820F3753C0059E2E4 /* Sources */,
+				7418510920F3753C0059E2E4 /* Frameworks */,
+				7418510A20F3753C0059E2E4 /* Resources */,
+				BD53AB63D6A3539BA18022A4 /* [CP] Embed Pods Frameworks */,
+				C436F93A7DE25AA387D69481 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVFloatLabeledTextField_Example;
+			productName = JVFloatLabeledTextField_Example;
+			productReference = 7418510C20F3753C0059E2E4 /* JVFloatLabeledTextField_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7418512220F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7418513A20F3753E0059E2E4 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField_ExampleTests" */;
+			buildPhases = (
+				30CC4562D42FEC1DA6CDCC7F /* [CP] Check Pods Manifest.lock */,
+				7418511F20F3753E0059E2E4 /* Sources */,
+				7418512020F3753E0059E2E4 /* Frameworks */,
+				7418512120F3753E0059E2E4 /* Resources */,
+				4AF078C032E0CCAE75446769 /* [CP] Embed Pods Frameworks */,
+				644F2A70E67FFBE43651F7E3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7418512520F3753E0059E2E4 /* PBXTargetDependency */,
+			);
+			name = JVFloatLabeledTextField_ExampleTests;
+			productName = JVFloatLabeledTextField_ExampleTests;
+			productReference = 7418512320F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7418512D20F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7418513D20F3753E0059E2E4 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField_ExampleUITests" */;
+			buildPhases = (
+				49D967B383FA0D049A3F2934 /* [CP] Check Pods Manifest.lock */,
+				7418512A20F3753E0059E2E4 /* Sources */,
+				7418512B20F3753E0059E2E4 /* Frameworks */,
+				7418512C20F3753E0059E2E4 /* Resources */,
+				EA3BB6A1B3539443405014A7 /* [CP] Embed Pods Frameworks */,
+				6269739937CE0FAEFC77FB7F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7418513020F3753E0059E2E4 /* PBXTargetDependency */,
+			);
+			name = JVFloatLabeledTextField_ExampleUITests;
+			productName = JVFloatLabeledTextField_ExampleUITests;
+			productReference = 7418512E20F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7418510420F3753C0059E2E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jorge Amores";
+				TargetAttributes = {
+					7418510B20F3753C0059E2E4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7418512220F3753E0059E2E4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7418510B20F3753C0059E2E4;
+					};
+					7418512D20F3753E0059E2E4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7418510B20F3753C0059E2E4;
+					};
+				};
+			};
+			buildConfigurationList = 7418510720F3753C0059E2E4 /* Build configuration list for PBXProject "JVFloatLabeledTextField_Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7418510320F3753C0059E2E4;
+			productRefGroup = 7418510D20F3753C0059E2E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7418510B20F3753C0059E2E4 /* JVFloatLabeledTextField_Example */,
+				7418512220F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleTests */,
+				7418512D20F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7418510A20F3753C0059E2E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7418511D20F3753E0059E2E4 /* LaunchScreen.storyboard in Resources */,
+				7418511A20F3753E0059E2E4 /* Assets.xcassets in Resources */,
+				7418511520F3753C0059E2E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7418512120F3753E0059E2E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7418512C20F3753E0059E2E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30CC4562D42FEC1DA6CDCC7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JVFloatLabeledTextField_ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49D967B383FA0D049A3F2934 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JVFloatLabeledTextField_ExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AF078C032E0CCAE75446769 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JVFloatLabeledTextField_ExampleTests/Pods-JVFloatLabeledTextField_ExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6269739937CE0FAEFC77FB7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JVFloatLabeledTextField_ExampleUITests/Pods-JVFloatLabeledTextField_ExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		644F2A70E67FFBE43651F7E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JVFloatLabeledTextField_ExampleTests/Pods-JVFloatLabeledTextField_ExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3934818CB370D6DEEC091F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JVFloatLabeledTextField_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD53AB63D6A3539BA18022A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JVFloatLabeledTextField_Example/Pods-JVFloatLabeledTextField_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JVFloatLabeledTextField/JVFloatLabeledTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVFloatLabeledTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JVFloatLabeledTextField_Example/Pods-JVFloatLabeledTextField_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C436F93A7DE25AA387D69481 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JVFloatLabeledTextField_Example/Pods-JVFloatLabeledTextField_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA3BB6A1B3539443405014A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JVFloatLabeledTextField_ExampleUITests/Pods-JVFloatLabeledTextField_ExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7418510820F3753C0059E2E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7418511220F3753C0059E2E4 /* ViewController.swift in Sources */,
+				7418511820F3753C0059E2E4 /* JVFloatLabeledTextField_Example.xcdatamodeld in Sources */,
+				7418511020F3753C0059E2E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7418511F20F3753E0059E2E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7418512820F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7418512A20F3753E0059E2E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7418513320F3753E0059E2E4 /* JVFloatLabeledTextField_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7418512520F3753E0059E2E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7418510B20F3753C0059E2E4 /* JVFloatLabeledTextField_Example */;
+			targetProxy = 7418512420F3753E0059E2E4 /* PBXContainerItemProxy */;
+		};
+		7418513020F3753E0059E2E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7418510B20F3753C0059E2E4 /* JVFloatLabeledTextField_Example */;
+			targetProxy = 7418512F20F3753E0059E2E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7418511320F3753C0059E2E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7418511420F3753C0059E2E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7418511B20F3753E0059E2E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7418511C20F3753E0059E2E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7418513520F3753E0059E2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7418513620F3753E0059E2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7418513820F3753E0059E2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38C4794C5F7189725DCAB42 /* Pods-JVFloatLabeledTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38727NYDZQ;
+				INFOPLIST_FILE = JVFloatLabeledTextField_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamores.JVFloatLabeledTextField-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7418513920F3753E0059E2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC36DFBEE9AE8A9A730525BA /* Pods-JVFloatLabeledTextField_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38727NYDZQ;
+				INFOPLIST_FILE = JVFloatLabeledTextField_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamores.JVFloatLabeledTextField-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7418513B20F3753E0059E2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63850DBB66BF6617E97E3041 /* Pods-JVFloatLabeledTextField_ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38727NYDZQ;
+				INFOPLIST_FILE = JVFloatLabeledTextField_ExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamores.JVFloatLabeledTextField-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JVFloatLabeledTextField_Example.app/JVFloatLabeledTextField_Example";
+			};
+			name = Debug;
+		};
+		7418513C20F3753E0059E2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C37018229C582E0439AF581 /* Pods-JVFloatLabeledTextField_ExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38727NYDZQ;
+				INFOPLIST_FILE = JVFloatLabeledTextField_ExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamores.JVFloatLabeledTextField-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JVFloatLabeledTextField_Example.app/JVFloatLabeledTextField_Example";
+			};
+			name = Release;
+		};
+		7418513E20F3753E0059E2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED585F5CF7C8CBF9EB86A9CB /* Pods-JVFloatLabeledTextField_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38727NYDZQ;
+				INFOPLIST_FILE = JVFloatLabeledTextField_ExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamores.JVFloatLabeledTextField-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JVFloatLabeledTextField_Example;
+			};
+			name = Debug;
+		};
+		7418513F20F3753E0059E2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 816E1308AFC75991A9908B99 /* Pods-JVFloatLabeledTextField_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38727NYDZQ;
+				INFOPLIST_FILE = JVFloatLabeledTextField_ExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamores.JVFloatLabeledTextField-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JVFloatLabeledTextField_Example;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7418510720F3753C0059E2E4 /* Build configuration list for PBXProject "JVFloatLabeledTextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7418513520F3753E0059E2E4 /* Debug */,
+				7418513620F3753E0059E2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7418513720F3753E0059E2E4 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7418513820F3753E0059E2E4 /* Debug */,
+				7418513920F3753E0059E2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7418513A20F3753E0059E2E4 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7418513B20F3753E0059E2E4 /* Debug */,
+				7418513C20F3753E0059E2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7418513D20F3753E0059E2E4 /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7418513E20F3753E0059E2E4 /* Debug */,
+				7418513F20F3753E0059E2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7418511620F3753C0059E2E4 /* JVFloatLabeledTextField_Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7418511720F3753C0059E2E4 /* JVFloatLabeledTextField_Example.xcdatamodel */,
+			);
+			currentVersion = 7418511720F3753C0059E2E4 /* JVFloatLabeledTextField_Example.xcdatamodel */;
+			path = JVFloatLabeledTextField_Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7418510420F3753C0059E2E4 /* Project object */;
+}

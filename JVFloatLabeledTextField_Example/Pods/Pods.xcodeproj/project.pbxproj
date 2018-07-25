@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1125777A644D1E8278CF25488A8C44EE /* Pods-JVFloatLabeledTextField_ExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB399F3CC4B064053199B36D22AB050 /* Pods-JVFloatLabeledTextField_ExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224A85932487353D4FEB41D97AAA1273 /* JVFloatLabeledTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA595757AAAC21C0E0FAC83191C5016 /* JVFloatLabeledTextField-dummy.m */; };
+		2CF987D2DC59DA41EB62817A07B6712B /* JVFloatLabeledTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C201ED6A7B39E9B6C9212281FC55B58 /* JVFloatLabeledTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36A8635ACD8A411AA01830728549B534 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A643C5429D1F3D75631928DBC63DEC /* JVFloatLabeledTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		36DACA17E376010811C466D17B36CD40 /* Pods-JVFloatLabeledTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D91D2F71981D82C0DBF6D51AEEA336 /* Pods-JVFloatLabeledTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B94B500D9A95D7608F60C7287D8D0EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		4337EBB45D61801A88C773D18D26D815 /* Pods-JVFloatLabeledTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B2ED3AD68F83403A81F5D278AC50B5 /* Pods-JVFloatLabeledTextField_Example-dummy.m */; };
+		5425C4B84CA641425E90B13AC38FA965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		68B544E41A8477AA16E44E9C0D5F232C /* JVFloatLabeledTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0E60531E493A45B8E765E4572700AC /* JVFloatLabeledTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AD548C8575F431FAA05EB0F03FBA770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		6D7B8C5BCEF514CCE43E44891B3126C3 /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = E311E623462285FCAF4E567E1324009B /* NSString+TextDirectionality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		717DA42CC50592C599DE84F1801A7D15 /* Pods-JVFloatLabeledTextField_ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4315A08A1F139301FD1137ECAFF260 /* Pods-JVFloatLabeledTextField_ExampleTests-dummy.m */; };
+		9A0FB2C71A306631C00AF04BE4DA3A76 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AFAF073A73FDACE22E0E8EBD531ED8 /* NSString+TextDirectionality.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AD4514C1D5A3670CB8A4960702271886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		C61480FC417FF7A632340001AC5C9BEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		EBADB42ECE8EAD686FDFCC10376765F2 /* Pods-JVFloatLabeledTextField_ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0CC2509296BB7A72C072040BC8B4C7 /* Pods-JVFloatLabeledTextField_ExampleUITests-dummy.m */; };
+		F4EBD72886837777AA1E6DF34E9610C9 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 790DC00DC9DFE2D1FB88C5C4CD862932 /* JVFloatLabeledTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F9115057BD0EF647E0EAF0E014F84635 /* JVFloatLabeledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 98036F21644AC37C06E550C115FEC99B /* JVFloatLabeledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE042318B5DA6CE1B36FFF4A18DE4E12 /* Pods-JVFloatLabeledTextField_ExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9FBB55BB3D6B506D107A9C1E414C77B /* Pods-JVFloatLabeledTextField_ExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9D912D3BC97832000230504B3FD2DDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A4448146C785C426971111F117D773C;
+			remoteInfo = JVFloatLabeledTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AA43113B1BF77F166564E376ACB6B4 /* Pods-JVFloatLabeledTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVFloatLabeledTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		05D25CCF123F53F30A1E178E97973847 /* Pods-JVFloatLabeledTextField_ExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVFloatLabeledTextField_ExampleTests.modulemap"; sourceTree = "<group>"; };
+		0FCC8077CF6C19ADE52EFA69E24334B1 /* Pods-JVFloatLabeledTextField_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVFloatLabeledTextField_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		14B49338F6675C7C045C64409353AF0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B29232BA7FC6A7A11B25F07673643A /* Pods-JVFloatLabeledTextField_ExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVFloatLabeledTextField_ExampleTests-resources.sh"; sourceTree = "<group>"; };
+		18F67C70461E0268476ED8E8BA2DA542 /* Pods-JVFloatLabeledTextField_ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVFloatLabeledTextField_ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1EF87715B46BF4F32315F334654DBC3E /* Pods-JVFloatLabeledTextField_ExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVFloatLabeledTextField_ExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		1FC197775775B0118BDA60B0DB76D5C4 /* JVFloatLabeledTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVFloatLabeledTextField.xcconfig; sourceTree = "<group>"; };
+		22CDB4BED53F90153BEF32195EDC908D /* Pods-JVFloatLabeledTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVFloatLabeledTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		24C8EEBE6C7AA3FA6CC4D685F6CE1F59 /* Pods-JVFloatLabeledTextField_ExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVFloatLabeledTextField_ExampleUITests.modulemap"; sourceTree = "<group>"; };
+		26D91D2F71981D82C0DBF6D51AEEA336 /* Pods-JVFloatLabeledTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVFloatLabeledTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		38A643C5429D1F3D75631928DBC63DEC /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextView.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		3C0E60531E493A45B8E765E4572700AC /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextView.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		40D879EB2C6755ADC14E96A6ABE8A16C /* Pods-JVFloatLabeledTextField_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVFloatLabeledTextField_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		44F083036E3C0B16D06FE30E7658317B /* JVFloatLabeledTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVFloatLabeledTextField.framework; path = JVFloatLabeledTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		517337E2B14BA1B9C210FCCBED0FED6D /* Pods_JVFloatLabeledTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVFloatLabeledTextField_Example.framework; path = "Pods-JVFloatLabeledTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A12B6DDD4124535FF1C9493CEB2FFE6 /* Pods-JVFloatLabeledTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVFloatLabeledTextField_Example.modulemap"; sourceTree = "<group>"; };
+		5B1C3E943C15452F72256AAF643A3405 /* Pods-JVFloatLabeledTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVFloatLabeledTextField_Example-resources.sh"; sourceTree = "<group>"; };
+		5B64EA5F5A8AE3101169E3CA4692B784 /* Pods_JVFloatLabeledTextField_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVFloatLabeledTextField_ExampleTests.framework; path = "Pods-JVFloatLabeledTextField_ExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4315A08A1F139301FD1137ECAFF260 /* Pods-JVFloatLabeledTextField_ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVFloatLabeledTextField_ExampleTests-dummy.m"; sourceTree = "<group>"; };
+		6C201ED6A7B39E9B6C9212281FC55B58 /* JVFloatLabeledTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-umbrella.h"; sourceTree = "<group>"; };
+		790DC00DC9DFE2D1FB88C5C4CD862932 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextField.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		7BAEE9128A281D6F85E5635D88C41025 /* Pods-JVFloatLabeledTextField_ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVFloatLabeledTextField_ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BAF0BFB213788AA45771D1C0A806008 /* JVFloatLabeledTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVFloatLabeledTextField.modulemap; sourceTree = "<group>"; };
+		7BBB2FD1AE211DAD3EA98A43CFF8A93D /* Pods-JVFloatLabeledTextField_ExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVFloatLabeledTextField_ExampleUITests-resources.sh"; sourceTree = "<group>"; };
+		8A352D930F4CA0714B0042FA8A5376F2 /* Pods-JVFloatLabeledTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVFloatLabeledTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F3533978A4DB1C3B5B6F91FBEA8E76A /* Pods-JVFloatLabeledTextField_ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVFloatLabeledTextField_ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B2ED3AD68F83403A81F5D278AC50B5 /* Pods-JVFloatLabeledTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVFloatLabeledTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		98036F21644AC37C06E550C115FEC99B /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextField.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		A42DEAF1CC6FABC875BD5E933205C739 /* JVFloatLabeledTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-prefix.pch"; sourceTree = "<group>"; };
+		ADA595757AAAC21C0E0FAC83191C5016 /* JVFloatLabeledTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVFloatLabeledTextField-dummy.m"; sourceTree = "<group>"; };
+		AE0CC2509296BB7A72C072040BC8B4C7 /* Pods-JVFloatLabeledTextField_ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVFloatLabeledTextField_ExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		B258B7A1908B8C809132490134D9D46F /* Pods-JVFloatLabeledTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVFloatLabeledTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BAFF5FED1D0D13BDE5DA62BA3FAE8398 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C249AFAEB3B50D535192B34A175A9260 /* Pods-JVFloatLabeledTextField_ExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVFloatLabeledTextField_ExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C4564A843A4A72F2E736CA7AB20354FB /* Pods-JVFloatLabeledTextField_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVFloatLabeledTextField_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAA1A41FECD653DC9F8AEFC204DB8BCB /* Pods_JVFloatLabeledTextField_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVFloatLabeledTextField_ExampleUITests.framework; path = "Pods-JVFloatLabeledTextField_ExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC132D7DAA63E9B24D7ECF3F3FD4BD27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC14E35EA589C04DC204DFD29DD1D8F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB399F3CC4B064053199B36D22AB050 /* Pods-JVFloatLabeledTextField_ExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVFloatLabeledTextField_ExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		D8AFAF073A73FDACE22E0E8EBD531ED8 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		D8B3718A66AB6A022BE916A059C70D53 /* Pods-JVFloatLabeledTextField_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVFloatLabeledTextField_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9FBB55BB3D6B506D107A9C1E414C77B /* Pods-JVFloatLabeledTextField_ExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVFloatLabeledTextField_ExampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		DEBD87B82CF63B750C96028CC7A58D82 /* Pods-JVFloatLabeledTextField_ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVFloatLabeledTextField_ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E311E623462285FCAF4E567E1324009B /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		FF6CDA90F0142CC5A0F184D1CCFAD425 /* Pods-JVFloatLabeledTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVFloatLabeledTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31F543FB005D3AA955CB627F529F45D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4514C1D5A3670CB8A4960702271886 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E402049C863BF5EA9D62EBFF1A1ACEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5425C4B84CA641425E90B13AC38FA965 /* Foundation.framework in Frameworks */,
+				C61480FC417FF7A632340001AC5C9BEE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5895C6910F61DBE269AE663EFF15CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD548C8575F431FAA05EB0F03FBA770 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C642F4BEEBFF9651AEB890699C74048A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B94B500D9A95D7608F60C7287D8D0EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8D6CF6BD76B80A1243F47323C7263A /* Pods-JVFloatLabeledTextField_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF5FED1D0D13BDE5DA62BA3FAE8398 /* Info.plist */,
+				5A12B6DDD4124535FF1C9493CEB2FFE6 /* Pods-JVFloatLabeledTextField_Example.modulemap */,
+				B258B7A1908B8C809132490134D9D46F /* Pods-JVFloatLabeledTextField_Example-acknowledgements.markdown */,
+				8A352D930F4CA0714B0042FA8A5376F2 /* Pods-JVFloatLabeledTextField_Example-acknowledgements.plist */,
+				94B2ED3AD68F83403A81F5D278AC50B5 /* Pods-JVFloatLabeledTextField_Example-dummy.m */,
+				22CDB4BED53F90153BEF32195EDC908D /* Pods-JVFloatLabeledTextField_Example-frameworks.sh */,
+				5B1C3E943C15452F72256AAF643A3405 /* Pods-JVFloatLabeledTextField_Example-resources.sh */,
+				26D91D2F71981D82C0DBF6D51AEEA336 /* Pods-JVFloatLabeledTextField_Example-umbrella.h */,
+				FF6CDA90F0142CC5A0F184D1CCFAD425 /* Pods-JVFloatLabeledTextField_Example.debug.xcconfig */,
+				04AA43113B1BF77F166564E376ACB6B4 /* Pods-JVFloatLabeledTextField_Example.release.xcconfig */,
+			);
+			name = "Pods-JVFloatLabeledTextField_Example";
+			path = "Target Support Files/Pods-JVFloatLabeledTextField_Example";
+			sourceTree = "<group>";
+		};
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		546DD1A01E73F911E3BC2C10A76810BD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C8D6CF6BD76B80A1243F47323C7263A /* Pods-JVFloatLabeledTextField_Example */,
+				73EE95BE6CC44C145D44835D5D614F0F /* Pods-JVFloatLabeledTextField_ExampleTests */,
+				B2EFD2335D5720D72C8D84BB78676651 /* Pods-JVFloatLabeledTextField_ExampleUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		651AF74EADAEF1C8F2D3185A357C5C9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44F083036E3C0B16D06FE30E7658317B /* JVFloatLabeledTextField.framework */,
+				517337E2B14BA1B9C210FCCBED0FED6D /* Pods_JVFloatLabeledTextField_Example.framework */,
+				5B64EA5F5A8AE3101169E3CA4692B784 /* Pods_JVFloatLabeledTextField_ExampleTests.framework */,
+				CAA1A41FECD653DC9F8AEFC204DB8BCB /* Pods_JVFloatLabeledTextField_ExampleUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661DFF3FDE2B9BEB30A97DB478805EA3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC14E35EA589C04DC204DFD29DD1D8F0 /* Info.plist */,
+				7BAF0BFB213788AA45771D1C0A806008 /* JVFloatLabeledTextField.modulemap */,
+				1FC197775775B0118BDA60B0DB76D5C4 /* JVFloatLabeledTextField.xcconfig */,
+				ADA595757AAAC21C0E0FAC83191C5016 /* JVFloatLabeledTextField-dummy.m */,
+				A42DEAF1CC6FABC875BD5E933205C739 /* JVFloatLabeledTextField-prefix.pch */,
+				6C201ED6A7B39E9B6C9212281FC55B58 /* JVFloatLabeledTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVFloatLabeledTextField";
+			sourceTree = "<group>";
+		};
+		73EE95BE6CC44C145D44835D5D614F0F /* Pods-JVFloatLabeledTextField_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				14B49338F6675C7C045C64409353AF0D /* Info.plist */,
+				05D25CCF123F53F30A1E178E97973847 /* Pods-JVFloatLabeledTextField_ExampleTests.modulemap */,
+				8F3533978A4DB1C3B5B6F91FBEA8E76A /* Pods-JVFloatLabeledTextField_ExampleTests-acknowledgements.markdown */,
+				7BAEE9128A281D6F85E5635D88C41025 /* Pods-JVFloatLabeledTextField_ExampleTests-acknowledgements.plist */,
+				5C4315A08A1F139301FD1137ECAFF260 /* Pods-JVFloatLabeledTextField_ExampleTests-dummy.m */,
+				1EF87715B46BF4F32315F334654DBC3E /* Pods-JVFloatLabeledTextField_ExampleTests-frameworks.sh */,
+				18B29232BA7FC6A7A11B25F07673643A /* Pods-JVFloatLabeledTextField_ExampleTests-resources.sh */,
+				CCB399F3CC4B064053199B36D22AB050 /* Pods-JVFloatLabeledTextField_ExampleTests-umbrella.h */,
+				D8B3718A66AB6A022BE916A059C70D53 /* Pods-JVFloatLabeledTextField_ExampleTests.debug.xcconfig */,
+				C4564A843A4A72F2E736CA7AB20354FB /* Pods-JVFloatLabeledTextField_ExampleTests.release.xcconfig */,
+			);
+			name = "Pods-JVFloatLabeledTextField_ExampleTests";
+			path = "Target Support Files/Pods-JVFloatLabeledTextField_ExampleTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				9FFF112B167A55FC1908E1DD44603498 /* Pods */,
+				651AF74EADAEF1C8F2D3185A357C5C9A /* Products */,
+				546DD1A01E73F911E3BC2C10A76810BD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9FFF112B167A55FC1908E1DD44603498 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE02CD1271BD8F5006F2838F2173501B /* JVFloatLabeledTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2EFD2335D5720D72C8D84BB78676651 /* Pods-JVFloatLabeledTextField_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC132D7DAA63E9B24D7ECF3F3FD4BD27 /* Info.plist */,
+				24C8EEBE6C7AA3FA6CC4D685F6CE1F59 /* Pods-JVFloatLabeledTextField_ExampleUITests.modulemap */,
+				DEBD87B82CF63B750C96028CC7A58D82 /* Pods-JVFloatLabeledTextField_ExampleUITests-acknowledgements.markdown */,
+				18F67C70461E0268476ED8E8BA2DA542 /* Pods-JVFloatLabeledTextField_ExampleUITests-acknowledgements.plist */,
+				AE0CC2509296BB7A72C072040BC8B4C7 /* Pods-JVFloatLabeledTextField_ExampleUITests-dummy.m */,
+				C249AFAEB3B50D535192B34A175A9260 /* Pods-JVFloatLabeledTextField_ExampleUITests-frameworks.sh */,
+				7BBB2FD1AE211DAD3EA98A43CFF8A93D /* Pods-JVFloatLabeledTextField_ExampleUITests-resources.sh */,
+				D9FBB55BB3D6B506D107A9C1E414C77B /* Pods-JVFloatLabeledTextField_ExampleUITests-umbrella.h */,
+				40D879EB2C6755ADC14E96A6ABE8A16C /* Pods-JVFloatLabeledTextField_ExampleUITests.debug.xcconfig */,
+				0FCC8077CF6C19ADE52EFA69E24334B1 /* Pods-JVFloatLabeledTextField_ExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-JVFloatLabeledTextField_ExampleUITests";
+			path = "Target Support Files/Pods-JVFloatLabeledTextField_ExampleUITests";
+			sourceTree = "<group>";
+		};
+		DE02CD1271BD8F5006F2838F2173501B /* JVFloatLabeledTextField */ = {
+			isa = PBXGroup;
+			children = (
+				98036F21644AC37C06E550C115FEC99B /* JVFloatLabeledTextField.h */,
+				790DC00DC9DFE2D1FB88C5C4CD862932 /* JVFloatLabeledTextField.m */,
+				3C0E60531E493A45B8E765E4572700AC /* JVFloatLabeledTextView.h */,
+				38A643C5429D1F3D75631928DBC63DEC /* JVFloatLabeledTextView.m */,
+				E311E623462285FCAF4E567E1324009B /* NSString+TextDirectionality.h */,
+				D8AFAF073A73FDACE22E0E8EBD531ED8 /* NSString+TextDirectionality.m */,
+				661DFF3FDE2B9BEB30A97DB478805EA3 /* Support Files */,
+			);
+			name = JVFloatLabeledTextField;
+			path = JVFloatLabeledTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F74F7BC6C923586091370DB1BCC27B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1125777A644D1E8278CF25488A8C44EE /* Pods-JVFloatLabeledTextField_ExampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4212D9A45C652D0C225506E8613CEB7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DACA17E376010811C466D17B36CD40 /* Pods-JVFloatLabeledTextField_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1693C9073C80C3C23D870E146BB68E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF987D2DC59DA41EB62817A07B6712B /* JVFloatLabeledTextField-umbrella.h in Headers */,
+				F9115057BD0EF647E0EAF0E014F84635 /* JVFloatLabeledTextField.h in Headers */,
+				68B544E41A8477AA16E44E9C0D5F232C /* JVFloatLabeledTextView.h in Headers */,
+				6D7B8C5BCEF514CCE43E44891B3126C3 /* NSString+TextDirectionality.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8901250FF92D4535FC5246B35BC9D87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE042318B5DA6CE1B36FFF4A18DE4E12 /* Pods-JVFloatLabeledTextField_ExampleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C414E0068C63C34D8BEC8252D016A1D /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField" */;
+			buildPhases = (
+				331CAB23E830D1AA0768D9AC301E22B6 /* Sources */,
+				5E402049C863BF5EA9D62EBFF1A1ACEC /* Frameworks */,
+				B1693C9073C80C3C23D870E146BB68E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVFloatLabeledTextField;
+			productName = JVFloatLabeledTextField;
+			productReference = 44F083036E3C0B16D06FE30E7658317B /* JVFloatLabeledTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65DC06FF0F6A6634081DEEE1F6E19AFE /* Pods-JVFloatLabeledTextField_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93F5AB84AF739E76EA380B93B56B2C2 /* Build configuration list for PBXNativeTarget "Pods-JVFloatLabeledTextField_ExampleTests" */;
+			buildPhases = (
+				C1F920727C823C3F0DD7BDB78F014A8D /* Sources */,
+				C642F4BEEBFF9651AEB890699C74048A /* Frameworks */,
+				2F74F7BC6C923586091370DB1BCC27B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JVFloatLabeledTextField_ExampleTests";
+			productName = "Pods-JVFloatLabeledTextField_ExampleTests";
+			productReference = 5B64EA5F5A8AE3101169E3CA4692B784 /* Pods_JVFloatLabeledTextField_ExampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6F676112875F8FC4D3502DF42BACF19 /* Pods-JVFloatLabeledTextField_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C2003BC6D8725C494FF49618D03ECA /* Build configuration list for PBXNativeTarget "Pods-JVFloatLabeledTextField_ExampleUITests" */;
+			buildPhases = (
+				0839F53068E5395E53A923B81184D6A5 /* Sources */,
+				31F543FB005D3AA955CB627F529F45D4 /* Frameworks */,
+				E8901250FF92D4535FC5246B35BC9D87 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JVFloatLabeledTextField_ExampleUITests";
+			productName = "Pods-JVFloatLabeledTextField_ExampleUITests";
+			productReference = CAA1A41FECD653DC9F8AEFC204DB8BCB /* Pods_JVFloatLabeledTextField_ExampleUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2C72E78B35DA06CC862848B284CDD1F /* Pods-JVFloatLabeledTextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7CD542BDBB557B27AC6F5E654255E6 /* Build configuration list for PBXNativeTarget "Pods-JVFloatLabeledTextField_Example" */;
+			buildPhases = (
+				2FCE08CED071AA3CC73AB688ED5DE0A2 /* Sources */,
+				6D5895C6910F61DBE269AE663EFF15CD /* Frameworks */,
+				4212D9A45C652D0C225506E8613CEB7B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBE33A76C56C1A7AA0B8B42FF3C30CD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-JVFloatLabeledTextField_Example";
+			productName = "Pods-JVFloatLabeledTextField_Example";
+			productReference = 517337E2B14BA1B9C210FCCBED0FED6D /* Pods_JVFloatLabeledTextField_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 651AF74EADAEF1C8F2D3185A357C5C9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */,
+				D2C72E78B35DA06CC862848B284CDD1F /* Pods-JVFloatLabeledTextField_Example */,
+				65DC06FF0F6A6634081DEEE1F6E19AFE /* Pods-JVFloatLabeledTextField_ExampleTests */,
+				A6F676112875F8FC4D3502DF42BACF19 /* Pods-JVFloatLabeledTextField_ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0839F53068E5395E53A923B81184D6A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBADB42ECE8EAD686FDFCC10376765F2 /* Pods-JVFloatLabeledTextField_ExampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCE08CED071AA3CC73AB688ED5DE0A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4337EBB45D61801A88C773D18D26D815 /* Pods-JVFloatLabeledTextField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331CAB23E830D1AA0768D9AC301E22B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224A85932487353D4FEB41D97AAA1273 /* JVFloatLabeledTextField-dummy.m in Sources */,
+				F4EBD72886837777AA1E6DF34E9610C9 /* JVFloatLabeledTextField.m in Sources */,
+				36A8635ACD8A411AA01830728549B534 /* JVFloatLabeledTextView.m in Sources */,
+				9A0FB2C71A306631C00AF04BE4DA3A76 /* NSString+TextDirectionality.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F920727C823C3F0DD7BDB78F014A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717DA42CC50592C599DE84F1801A7D15 /* Pods-JVFloatLabeledTextField_ExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBE33A76C56C1A7AA0B8B42FF3C30CD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVFloatLabeledTextField;
+			target = 2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */;
+			targetProxy = E9D912D3BC97832000230504B3FD2DDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00A06BEB3987B2117D563D0D7CF7ACC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		29BEE4206132EC1533FCEC79D40885E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC197775775B0118BDA60B0DB76D5C4 /* JVFloatLabeledTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVFloatLabeledTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField.modulemap";
+				PRODUCT_NAME = JVFloatLabeledTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3383B93A15A7C5A3077A1E32935AF1F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF6CDA90F0142CC5A0F184D1CCFAD425 /* Pods-JVFloatLabeledTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVFloatLabeledTextField_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVFloatLabeledTextField_Example/Pods-JVFloatLabeledTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JVFloatLabeledTextField_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4969245E1D801FE15E4E820C65281D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FCC8077CF6C19ADE52EFA69E24334B1 /* Pods-JVFloatLabeledTextField_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVFloatLabeledTextField_ExampleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVFloatLabeledTextField_ExampleUITests/Pods-JVFloatLabeledTextField_ExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JVFloatLabeledTextField_ExampleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B3DA2BC6FB149222B825D3794D5C85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B3718A66AB6A022BE916A059C70D53 /* Pods-JVFloatLabeledTextField_ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVFloatLabeledTextField_ExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVFloatLabeledTextField_ExampleTests/Pods-JVFloatLabeledTextField_ExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JVFloatLabeledTextField_ExampleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		859E315E039B11D5D4586BB3B5345ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04AA43113B1BF77F166564E376ACB6B4 /* Pods-JVFloatLabeledTextField_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVFloatLabeledTextField_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVFloatLabeledTextField_Example/Pods-JVFloatLabeledTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JVFloatLabeledTextField_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA74C672D3C62F8DE7513288F4F0900A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC197775775B0118BDA60B0DB76D5C4 /* JVFloatLabeledTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVFloatLabeledTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField.modulemap";
+				PRODUCT_NAME = JVFloatLabeledTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1B43449FEF8B6DCE807ABBE584A4798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4564A843A4A72F2E736CA7AB20354FB /* Pods-JVFloatLabeledTextField_ExampleTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVFloatLabeledTextField_ExampleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVFloatLabeledTextField_ExampleTests/Pods-JVFloatLabeledTextField_ExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JVFloatLabeledTextField_ExampleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCF405426857C065123D950465A8AEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF3FDAA6D2D0F8385EA48E20102203A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D879EB2C6755ADC14E96A6ABE8A16C /* Pods-JVFloatLabeledTextField_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVFloatLabeledTextField_ExampleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVFloatLabeledTextField_ExampleUITests/Pods-JVFloatLabeledTextField_ExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JVFloatLabeledTextField_ExampleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C2003BC6D8725C494FF49618D03ECA /* Build configuration list for PBXNativeTarget "Pods-JVFloatLabeledTextField_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3FDAA6D2D0F8385EA48E20102203A7 /* Debug */,
+				4969245E1D801FE15E4E820C65281D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF405426857C065123D950465A8AEFA /* Debug */,
+				00A06BEB3987B2117D563D0D7CF7ACC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F7CD542BDBB557B27AC6F5E654255E6 /* Build configuration list for PBXNativeTarget "Pods-JVFloatLabeledTextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3383B93A15A7C5A3077A1E32935AF1F2 /* Debug */,
+				859E315E039B11D5D4586BB3B5345ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C414E0068C63C34D8BEC8252D016A1D /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BEE4206132EC1533FCEC79D40885E4 /* Debug */,
+				BA74C672D3C62F8DE7513288F4F0900A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93F5AB84AF739E76EA380B93B56B2C2 /* Build configuration list for PBXNativeTarget "Pods-JVFloatLabeledTextField_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3DA2BC6FB149222B825D3794D5C85C /* Debug */,
+				C1B43449FEF8B6DCE807ABBE584A4798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
