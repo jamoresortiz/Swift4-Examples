@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PageControllerImagesExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5G5-gF-SCR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="xZP-Lx-dcy">
+                                <rect key="frame" x="0.0" y="630" width="375" height="37"/>
+                                <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="currentPageIndicatorTintColor" red="0.22352941179999999" green="0.66666666669999997" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5G5-gF-SCR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BPF-XQ-3fM"/>
+                            <constraint firstItem="5G5-gF-SCR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="JWE-Tt-c2U"/>
+                            <constraint firstItem="5G5-gF-SCR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SXI-Ko-5bK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xZP-Lx-dcy" secondAttribute="bottom" id="aca-Ty-t4A"/>
+                            <constraint firstItem="5G5-gF-SCR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fH0-54-2a5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xZP-Lx-dcy" secondAttribute="trailing" id="hHP-rW-TIg"/>
+                            <constraint firstItem="5G5-gF-SCR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="t0b-By-jg9"/>
+                            <constraint firstItem="5G5-gF-SCR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t1q-un-Clr"/>
+                            <constraint firstItem="xZP-Lx-dcy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wPU-Az-cgm"/>
+                            <constraint firstItem="5G5-gF-SCR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="wau-BV-Nbb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="xZP-Lx-dcy" id="XwI-pU-gwt"/>
+                        <outlet property="scrollView" destination="5G5-gF-SCR" id="7k6-bM-VLF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-242.40000000000001" y="-13.043478260869566"/>
+        </scene>
+    </scenes>
+</document>
